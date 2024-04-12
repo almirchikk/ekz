@@ -1,0 +1,25 @@
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: black;
+    width: 600px;
+    height: 600px;
+    z-index: 2345234;
+    color: white;
+    display: none;
+}
+
+.modal h1{
+    color: white;
+}
+
+.modal-title{
+color: white;
+}
